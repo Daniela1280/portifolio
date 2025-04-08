@@ -3,25 +3,53 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projetos - Daniela</title>
+  <title>Projetos - Daniela Pompeu</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: Arial, sans-serif;
       background-color: #e3f2fd;
       margin: 0;
       padding: 20px;
     }
+
     .container {
       max-width: 800px;
       margin: auto;
-      background-color: #e0f7fa;
-      padding: 30px;
-      border-radius: 15px;
+      background-color: #ffffff;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
+
     h1 {
       color: #6a5acd;
     }
-    a {
+
+    .projeto {
+      margin-bottom: 20px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      background-color: #f5f5ff;
+    }
+
+    .projeto h2 {
+      margin: 0 0 10px;
+    }
+
+    .projeto a {
+      color: #6a5acd;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .projeto a:hover {
+      text-decoration: underline;
+    }
+
+    a.voltar {
+      display: inline-block;
+      margin-top: 20px;
       color: #6a5acd;
       text-decoration: none;
     }
@@ -30,8 +58,26 @@
 <body>
   <div class="container">
     <h1>Projetos</h1>
-    <p>Estou desenvolvendo um portfólio com projetos em HTML, CSS, JavaScript, C# e Angular. Também estou explorando inteligência artificial, criação de personagens e marketing digital. Um dos meus projetos atuais é uma lista de tarefas funcional com C# e Angular.</p>
-    <a href="index.html">Voltar</a>
+
+    <div class="projeto">
+      <h2>Lista de Tarefas (C# + Angular)</h2>
+      <p>Aplicação funcional para organizar tarefas diárias, com design simples e funcional.</p>
+      <a href="https://daniela1280.github.io/lista-de-tarefas" target="_blank">Acessar Projeto</a>
+    </div>
+
+    <div class="projeto">
+      <h2>Portfólio Simples</h2>
+      <p>Site pessoal em HTML e CSS com um layout limpo e organizado para exibir informações profissionais.</p>
+      <a href="https://daniela1280.github.io/portifolio" target="_blank">Acessar Projeto</a>
+    </div>
+
+    <div class="projeto">
+      <h2>Página Estática com Informações Pessoais</h2>
+      <p>Página criada para destacar informações básicas como nome, links e currículo.</p>
+      <a href="https://daniela1280.github.io/pagina-pessoal" target="_blank">Acessar Projeto</a>
+    </div>
+
+    <a class="voltar" href="index.html">Voltar à página inicial</a>
   </div>
 </body>
 </html>
