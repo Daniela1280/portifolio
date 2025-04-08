@@ -9,24 +9,22 @@
       margin: 0;
       padding: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(to right, #fce4ec, #e3f2fd); /* rosa claro e azul pastel */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
+      background: linear-gradient(to right, #fce4ec, #e3f2fd);
+      scroll-behavior: smooth;
     }
 
     .container {
-      background-color: #fff0f5; /* lavanda clara */
+      background-color: #fff0f5;
       padding: 40px;
       border-radius: 20px;
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
       text-align: center;
-      max-width: 500px;
+      max-width: 600px;
+      margin: 60px auto;
     }
 
     h1 {
-      color: #6a5acd; /* azul violeta pastel */
+      color: #6a5acd;
       margin-bottom: 10px;
     }
 
@@ -34,13 +32,14 @@
       color: #555;
       font-size: 16px;
       margin-bottom: 20px;
+      text-align: justify;
     }
 
     .btn {
       display: inline-block;
       margin: 10px 5px;
       padding: 10px 20px;
-      background-color: #b39ddb; /* lilás pastel */
+      background-color: #b39ddb;
       color: white;
       border: none;
       border-radius: 8px;
@@ -50,18 +49,40 @@
     }
 
     .btn:hover {
-      background-color: #9575cd; /* tom mais escuro do lilás */
+      background-color: #9575cd;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      color: #6a5acd;
+      margin-bottom: 20px;
+      text-align: center;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Daniela Pompeu de Sousa</h1>
-    <p>Bem-vindo(a)! Aqui você encontra meus principais links.</p>
+    <p>Bem-vindo(a)! Aqui você encontra informações sobre mim e meus projetos.</p>
 
     <a href="#sobre" class="btn">Sobre Mim</a>
     <a href="#projetos" class="btn">Projetos</a>
     <a href="curriculo.pdf" class="btn" target="_blank">Currículo</a>
   </div>
+
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Sou uma profissional dedicada e curiosa, sempre buscando aprender e crescer. Tenho experiência com atendimento ao cliente, atividades administrativas, informática e recentemente iniciei meus estudos na área de programação. Desenvolvi projetos simples em HTML, CSS, JavaScript e estou aprendendo C# e Angular para me especializar ainda mais e criar soluções que impactem positivamente a vida das pessoas.</p>
+  </section>
+
+  <section id="projetos">
+    <h2>Projetos</h2>
+    <p>Atualmente, estou desenvolvendo um projeto de lista de tarefas usando C# e Angular, com o objetivo de aprimorar meus conhecimentos em front-end e back-end. Além disso, criei este portfólio simples com HTML e CSS para apresentar minhas habilidades de forma organizada e acessível.</p>
+  </section>
 </body>
 </html>
